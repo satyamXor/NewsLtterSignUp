@@ -46,7 +46,7 @@ app.post("/",function(req,res){
 
         const options={
             method: "POST",
-            auth: "satyam:aa872991bf882a7a39e455a5d12ef56e2-us1"
+            auth: "satyam:a872991bf882a7a39e455a5d12ef56e2-us1"
         };
       const request=  https.request(url,options, function(response){
 
