@@ -46,7 +46,7 @@ app.post("/",function(req,res){
 
         const options={
             method: "POST",
-            auth: "satyam:a872991bf882a7a39e455a5d12ef56e2-us1"
+            auth: "satyam:<Add API key>"
         };
       const request=  https.request(url,options, function(response){
 
@@ -81,6 +81,3 @@ app.listen(process.env.PORT || 3000,function(){
   console.log("server is up");
 });
 
-//Api key  a872991bf882a7a39e455a5d12ef56e2-us1
-
-//unique //a172824244
